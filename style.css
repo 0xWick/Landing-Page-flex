@@ -1,0 +1,271 @@
+/* 0xWick.CSS */
+
+
+* {
+    /* To easily manage content in css */
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    /* because we set 0 in * */
+    margin: 0.75rem 0;
+}
+
+/*-------- Utility Classes --------*/
+
+.text-center {
+    text-align: center;
+}
+
+.content-center {
+    align-content: center;
+    vertical-align: middle;
+}
+
+/* Primary */
+.prm-cyan {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.prm-blue {
+    background-color: hsl(233, 100%, 69%);
+}
+
+/* Neutral */
+.neut-dark {
+    color: hsl(210, 10%, 33%);
+}
+
+.neut-grey {
+    color: hsl(201, 11%, 66%);
+}
+
+
+/*------ Section:1 - Logo & Buttons ------*/
+
+#logo-btn .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Background-img */
+    background: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255) inset;
+}
+
+#logo-btn .wrapper .main-header {
+    padding: 90px;
+    text-align: center;
+    top: 50px;
+}
+
+#logo-btn .wrapper .main-header .S1-img {
+    padding: 20px;
+}
+
+#logo-btn .wrapper .main-header .S1-h {
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+#logo-btn .wrapper .main-header .S1-p {
+    padding-top: 10px;
+    line-height: 1.65rem;
+}
+
+
+/* Buttons */
+
+#logo-btn #btn-wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#btn-wrap .btn {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: -80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+#btn-wrap .btn:hover {
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+#btn-wrap .btn-1 {
+    background-color: hsl(171, 66%, 44%);
+}
+
+#btn-wrap .btn-2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+#btn-wrap .btn-1:hover {
+    background-color: hsl(171, 87%, 62%);
+    box-shadow: 0px 15px 20px hsl(171, 80%, 66%);;
+}
+
+#btn-wrap .btn-2:hover {
+    background-color: hsl(233, 44%, 60%);
+    box-shadow: 0px 15px 20px hsl(233, 54%, 73%);
+}
+
+
+/*------ Section:2 - Text-Only ------*/
+
+#S2 {
+    margin: 100px 0px;
+
+}
+
+#S2 .S2-h {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#S2 .S2-p {
+    margin-bottom: 100px;
+}
+
+/*------ Section:3 - Img & Points ------*/
+
+#S3 .S3-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#S3 .S3-wrap .S3-img {
+
+    transform: translateX(-50%);
+    overflow:hidden;
+}
+
+#S3 .S3-wrap .flex-item {
+    margin-left: -230px;
+}
+
+#S3 .S3-wrap .flex-item h4 {
+    font-weight: 600;
+}
+
+#S3 .S3-wrap .flex-item .flex-items {
+    margin: 45px 0px;
+}
+
+/*------ Section:7 - Features ------*/
+
+#S7 .S7-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+}
+
+#S7 .S7-wrap .flex-item-7 img {
+    margin: 10px 200px;
+}
+#S7 .S7-wrap .flex-item-7 h5 {
+    font-weight: 600;
+}
+
+/*------ Section:8 - Partners ------*/
+
+#S8 .S8-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    margin-top: 20px
+}
+
+#S8 .S8-wrap .flex-item-8 {
+    margin-top: 170px;
+    padding: 0px 80px;
+    
+}
+
+/*------ Section:9 - LAst Section ------*/
+
+#S9 .S9-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#S9 .S9-wrap .S9-btn {
+    margin-top: 80px;
+}
+
+
+/* 
+Section 7 (Features)
+
+1. most left div isnt aligned with other two
+2. Padding and margins bw imgs, text, headings needs adjusting
+
+
+Section 10 (Footer)
+
+1. Make the footer
+
+Section 11 (Mobile-Design)
+
+1. Set media query
+2. Adjust all sections according to design (Vertically mostly)
+
+Pre-liminary (Pruning)
+
+1. Delete any duplicate code
+2. Delete all redundant code
+3. Make Utility classes for often used styling
+4. Cut out any extra styling
+
+Final (Test & Upload)
+
+1. Test the responsiveness and active states
+2. Upload the website
+3. Final Check while Live
+
+-> Share with Arbakan */
