@@ -1,4 +1,4 @@
-# Frontend Mentor - Clipboard landing page
+# Frontend Mentor - Clipboard landing page (Incomplete- Move on to React)
 
 ![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
 
