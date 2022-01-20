@@ -192,7 +192,7 @@ p {
 #S7 .S7-wrap {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 
     flex-direction: row;
 }
@@ -238,6 +238,67 @@ p {
     margin-top: 80px;
 }
 
+/*------ Section:10 - Footer ------*/
+
+#footer {
+    background-color: whitesmoke;
+    
+    
+}
+#footer .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 100px 0px;
+    padding: 20px 0px;
+}
+
+#footer .items .item-1{
+    padding: 20px;
+    padding-left: 70px;
+    
+}
+
+#footer .items .item-2{
+    flex-grow: 2;
+    padding: 20px;
+    text-align: left;
+    vertical-align: middle;
+
+    max-width: 60%;
+}
+
+#footer .items .item-2 a {
+    text-decoration: none;
+    color: hsl(180, 1%, 39%);
+    margin: 10p;
+}
+#footer .items .item-2 .list-items{
+    display:flex;
+    justify-content:center;
+    list-style: none;
+
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#footer .items .item-2 li{
+    flex-grow: 1;
+
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+
+
+}
+#footer .items .item-3 {
+    padding: 20px;
+}
+
+
 
 /* 
 Section 7 (Features)
@@ -246,9 +307,6 @@ Section 7 (Features)
 2. Padding and margins bw imgs, text, headings needs adjusting
 
 
-Section 10 (Footer)
-
-1. Make the footer
 
 Section 11 (Mobile-Design)
 
